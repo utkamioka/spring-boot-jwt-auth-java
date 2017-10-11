@@ -1,0 +1,3 @@
+echo '{"username":"admin","password":"123"}' | http POST http://localhost:8080/login
+echo '{"username":"user","password":"456"}' | http POST http://localhost:8080/login
+http GET http://localhost:8080/users Authorization:'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbInJvbGVfYWRtaW4iLCJyb2xlX2JhciIsInJvbGVfZm9vIl0sImV4cCI6MTUwODU3MzY1M30.FwTfa91gN6jRT4Ry6bEICSqoJbYqdiCRXJChQ7h8dsR_OPDtsOKqEZzf6gYWJwUNCy_rYovHAB6Y-ZCKNTorDg'
